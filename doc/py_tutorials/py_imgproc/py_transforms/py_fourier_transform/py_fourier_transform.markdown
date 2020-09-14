@@ -239,8 +239,8 @@ from matplotlib import pyplot as plt
 # simple averaging filter without scaling parameter
 mean_filter = np.ones((3,3))
 
-# creating a guassian filter
-x = cv2.getGaussianKernel(5,10)
+# creating a gaussian filter
+x = cv.getGaussianKernel(5,10)
 gaussian = x*x.T
 
 # different edge detecting filters
